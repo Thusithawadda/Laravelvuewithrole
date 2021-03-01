@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "~admin-lte/dist/css/adminlte.css";
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #fff;
+    background: #c81b1b;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
